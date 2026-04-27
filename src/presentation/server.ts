@@ -13,7 +13,7 @@ export class Server {
         console.log('Server started...')
 
         //Mandar email 
-        // const emailService = new EmailService()
+        // const emailService = new EmailService(fileSystemLogRespository)
         // emailService.sendEmailWithFileSystemLogs([
         //     'amazonpara81@gmail.com'
         // ])
