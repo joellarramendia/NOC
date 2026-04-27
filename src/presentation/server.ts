@@ -10,20 +10,24 @@ const fileSystemLogRespository = new LogRespositoryImpl(
 export class Server {
     static start() {
         console.log('Server started...')
-        CronService.createJob(
-            '*/5 * * * * *',
-            function () {
-                const url = 'https://google.com'
-                // const url = 'http://localhost:3000'
-               new CheckService(
-                fileSystemLogRespository,
-                () => console.log(`${url} is ok`),
-                (error) => console.log(error),
-               ).execute(url)
-            //    new CheckService().execute('http://localhost:3000')
 
-            },
-        )
+        //Mandar email 
+
+
+        // CronService.createJob(
+        //     '*/5 * * * * *',
+        //     function () {
+        //         const url = 'https://google.com'
+        //         // const url = 'http://localhost:3000'
+        //        new CheckService(
+        //         fileSystemLogRespository,
+        //         () => console.log(`${url} is ok`),
+        //         (error) => console.log(error),
+        //        ).execute(url)
+        //     //    new CheckService().execute('http://localhost:3000')
+
+        //     },
+        // )
     }
 }
 
