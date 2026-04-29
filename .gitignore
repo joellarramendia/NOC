@@ -9,3 +9,8 @@ generated/
 
 
 /generated/prisma
+
+
+coverage/
+mongo-test/
+postgres-test/
