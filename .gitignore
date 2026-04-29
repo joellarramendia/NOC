@@ -6,6 +6,6 @@ logs/
 mongo/
 postgres/
 generated/
-prisma/
+
 
 /generated/prisma
