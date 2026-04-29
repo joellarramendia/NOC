@@ -4,3 +4,8 @@ logs/
 .env
 
 mongo/
+postgres/
+generated/
+prisma/
+
+/generated/prisma
