@@ -1,6 +1,6 @@
-import type { EmailService } from "../../presentation/email/email-service.js"
-import { LogEntity, LogSeverityLevel } from "../entities/log.entity.js"
-import type { LogRepository } from "../repository/log.repository.js"
+import type { EmailService } from "../../../presentation/email/email-service.js"
+import { LogEntity, LogSeverityLevel } from "../../entities/log.entity.js"
+import type { LogRepository } from "../../repository/log.repository.js"
 
 
 interface SendLogEmailUseCase {
