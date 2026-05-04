@@ -1,7 +1,7 @@
 import { LogSeverityLevel } from "../domain/entities/log.entity.js"
 import { CheckServiceMultiple } from "../domain/use-cases/checks/check-service-multiple.js"
 import { CheckService } from "../domain/use-cases/checks/check-service.js"
-import { SendEmailLogs } from "../domain/use-cases/send-email-logs.js"
+import { SendEmailLogs } from "../domain/use-cases//email/send-email-logs.js"
 import { FileSystemDatasource } from "../infrastructure/datasources/file-system.datasource.js"
 import { MongoLogDataSource } from "../infrastructure/datasources/mongo-log.datasource.js"
 import { PostgresLogDataSource } from "../infrastructure/datasources/postgres-log.datasource.js"
